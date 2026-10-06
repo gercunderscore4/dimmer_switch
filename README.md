@@ -15,6 +15,12 @@ Amber LEDs.
 One set of red.
 Probably ATtiny84/85.
 
+### TODO
+- program T85/T84
+- buy CR2032 batteries
+- test circuit
+
+
 ## VHS
 
 Before friends arrive.
@@ -34,7 +40,10 @@ Switch back to previous source and resume playback (or power off)
 Have it activate every few hours
 Hide it inside a VHS or similar box if possible.
 
-Look for a device with an HDMI prot and power.
+### TODO
+- look for box with HDMI and power(something from pawn shop)
+- test HDMI CEC codes using RPi
+
 
 ## Firewood
 
@@ -44,11 +53,19 @@ Try saturating firewood in the following water solutions:
 - sugar (sparkles)
 - epsom salts (white)
 - borax
+
 https://sciencenotes.org/how-to-make-colored-fire/
+
 https://sciencenotes.org/how-to-make-colored-fire-pinecones/
 
 Only use once food cooking is done.
 Remove ashes after (salts remain, bad for food, mostly harmless to environment)
+
+### TODO
+- buy potassium chloride online
+- buy borax
+- collect firewood or pinecones
+
 
 ## Bird House
 
@@ -108,6 +125,12 @@ Let's use the 555 circuit, it's simple.
 The sound will be tinny, but that's okay.
 We'll save time and effort and it will still freak people out.
 
+### TODO
+- look into pre-amp
+- look into audio amp
+- set up 555 circuit
+
+
 ## Parabola
 
 Build a parabolic reflector dish.
@@ -132,6 +155,11 @@ Or 3D print?
 Heat worbla over it.
 Add metal wire for re-inforcement.
 
+### TODO
+- draw parabola in CAD
+- buy/find mic
+- ESP8266 comms
+
 
 ## Polaroid
 
@@ -140,7 +168,9 @@ Take a few pictures.
 Re-load the already exposed pictures back to the top of the roll.
 For extra fun, load them into random positions in a dark room.
 
-Buy one camera and prefer two stacks of photos.
+### TODO
+- buy camera
+
 
 ## Box
 
@@ -148,6 +178,10 @@ Buy a food tin.
 Line it with fabric.
 Verify that it works as a Faraday cage.
 Consider adding a lock.
+
+### TODO
+- buy tin
+
 
 ## Scene
 
@@ -181,15 +215,9 @@ Chants:
 - dies irae
 - erlkonig elf lines
 
-## TODO
+### TODO
+- write chants
+- draw circle
+- calculate floor space
+- buy tulle
 
-Long-term items:
-- buy a few dozen TCT40-16T
-- buy audio amp circuit
-- pratice flashing ESP8266
-- buy potassium chloride
-- buy Polaroid camera
-- build parabolic reflector dish
-- buy microphone
-- build prototype light circuit and order more parts
-- soak and dry logs in salts
