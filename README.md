@@ -100,30 +100,31 @@ https://www.youtube.com/watch?v=aBdVfUnS-pM
 https://www.youtube.com/watch?v=8wJ5Eff7hx0
 Freeze-framing at 5:13 shows a possibly hex grid, spaced out
 
-https://www.explainthatstuff.com/directional-loudspeakers.html
-parametric arrays with sonar
-HyperSonic Sound
-patent links
-https://patents.google.com/patent/US20090116660
-rectangular grid
-https://patents.google.com/patent/US20140104988
-shows a hex grid and might have good details
-https://www.youtube.com/watch?v=HF9G9M0cR0E
+https://www.explainthatstuff.com/directional-loudspeakers.html \
+parametric arrays with sonar\
+HyperSonic Sound\
+patent links\
+https://patents.google.com/patent/US20090116660 \
+rectangular grid\
+https://patents.google.com/patent/US20140104988 \
+shows a hex grid and might have good details\
+https://www.youtube.com/watch?v=HF9G9M0cR0E \
 
-Not as useful:
+Not as useful:\
 https://www.youtube.com/watch?v=0NwX8F1YZIc
 https://www.youtube.com/watch?v=Be5woNXoiBs
 https://www.youtube.com/watch?v=TQOabMOMGoE
 https://www.youtube.com/watch?v=hmNzf9ztnAk
 
-Bought 50 transducers.
-Let's try a hexagonal lattice of 37.
-Split the cable evenly to ensure that they all arrive exactly.
-Or not, lambda = v / f, v = a*c, f = 40kHz, lambda is about 10km
-So as long as my wiring isn't on the order of km, I'm good.
-Let's use the 555 circuit, it's simple.
-The sound will be tinny, but that's okay.
-We'll save time and effort and it will still freak people out.
+Bought 50 transducers.\
+Let's try a hexagonal lattice of 37.\
+Split the cable evenly to ensure that they all arrive exactly.\
+Or not, lambda = v / f, v = a*c, f = 40kHz, lambda is about 10km\
+So as long as my wiring isn't on the order of km, I'm good.\
+Let's use the 555 circuit, it's simple.\
+The sound will be tinny, but that's okay.\
+We'll save time and effort and it will still freak people out.\
+
 
 ### TODO
 - look into pre-amp
@@ -133,32 +134,35 @@ We'll save time and effort and it will still freak people out.
 
 ## Parabola
 
-Build a parabolic reflector dish.
-Make it look like a satellite dish.
-Place it away from the directional speaker.
-Aim it at where people walk past the line of the directional speaker.
-If it picks up speech while the directional speaker is off, record 2s and send to directional speaker.
-Play back on directional speaker with a roar at the end.
+Build a parabolic reflector dish.\
+Make it look like a satellite dish.\
+Place it away from the directional speaker.\
+Aim it at where people walk past the line of the directional speaker.\
+If it picks up speech while the directional speaker is off, record 2s and send to directional speaker.\
+Play back on directional speaker with a roar at the end.\
 
-Build the parabola out to where the line meets the point.
-Have a single arm reach diagonally forward and the straight back for the mic, like a TV satellite dish.
-Make the dish look broken with (fake) exposed wires to explain why it's aimed at the ground
-Sound wave sizes:
-lambda = 343 / 20k = 17mm
-lambda = 343 / 2k = 17cm
-lambda = 343 / 200 = 1.7m
-So let's go with about 30cm in diameter, 
-catch the higher frequencies and still be reasonably sized.
-Build a grid of cross sections.
-Plug gaps with tape.
-Or 3D print?
-Heat worbla over it.
-Add metal wire for re-inforcement.
+Build the parabola out to where the line meets the point.\
+Have a single arm reach diagonally forward and the straight back for the mic, like a TV satellite dish.\
+Make the dish look broken with (fake) exposed wires to explain why it's aimed at the ground\
+Sound wave sizes:\
+lambda = 343 / 20k = 17mm\
+lambda = 343 / 2k = 17cm\
+lambda = 343 / 200 = 1.7m\
+So let's go with about 30cm in diameter, \
+catch the higher frequencies and still be reasonably sized.\
+
+3D print in quarters with plates that screw together.\
+Use a bent metal pipe as the support\
+Use a square metal pipe to hold the mic\
+Use steel adjustable mounting straps to tie it to the support beam.\
+Use foam to avoid damaging the wooden corners\
+Use some kind of adjustable mounting bracket to connect them.\
 
 ### TODO
-- draw parabola in CAD
+- finish parabola in CAD
 - buy/find mic
 - ESP8266 comms
+- buy mounting supplies
 
 
 ## Polaroid
@@ -169,7 +173,9 @@ Re-load the already exposed pictures back to the top of the roll.
 For extra fun, load them into random positions in a dark room.
 
 ### TODO
-- buy camera
+- wait for camera to ship
+- buy 600 series film x3+
+- take photos
 
 
 ## Box
@@ -197,7 +203,7 @@ E.g. human skull, deer skull, bird face, wolf face
 Videos:
 - just the circle, blow our the candles with fans, reverse the footage
 - one person with candles lit, turns to camera, grabs a candle, blows it out as video stops
-- one person chanting, second person's face rapids enters frame from the side (twist if you can)
+- one person chanting, second person's face rapids enters frame from the side (twist if you can) and mimes shush
 - two people chanting, knife present
 - two chanting (one with bloody knife), one laying down in center
 - no one present, bloody hand reaches in to extinguish a candle
