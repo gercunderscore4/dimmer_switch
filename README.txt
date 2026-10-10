@@ -16,9 +16,11 @@ One set of red.
 Probably ATtiny84/85.
 
 ### TODO
-- program T85/T84
-- buy CR2032 batteries
-- test circuit
+- improve code
+- buy CR2032 batteries x6
+- amber LED x12
+- rocker switch x6
+- 14 pin DIP x3
 
 
 ## VHS
@@ -172,11 +174,9 @@ Take a few pictures.
 Re-load the already exposed pictures back to the top of the roll.
 For extra fun, load them into random positions in a dark room.
 
-### TODO
-- wait for camera to ship
-- buy 600 series film x3+
-- take photos
-
+### Bring
+- camera
+- film x3
 
 ## Box
 
