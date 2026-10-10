@@ -4,47 +4,45 @@ Gaslighting my friends with techonology and science for Halloween.
 
 ## Forest Eyes
 
-Use a microcontroller, two LEDs and a coin cell battery to make glowing eyes in the forest.
-Microncontroller chip soldered directly to the LEDS.
-No resistors, the high internal resistance of the battery will limit the currect.
+Use a microcontroller, two LEDs and a coin cell battery to make glowing eyes in the forest.\
+Microncontroller chip soldered directly to the LEDS.\
+No resistors, the high internal resistance of the battery will limit the currect.\
 Microcontroller in low power mode.
-Wake up for 3 ~ 10 seconds every 15 ~ 30 minutes.
-PWM to turn on.
-1/7 chance to add an animation to blink both eyes, blink right then left, left then right.
-Amber LEDs.
-One set of red.
-Probably ATtiny84/85.
+Wake up for 3 ~ 10 seconds every 15 ~ 30 minutes.\
+PWM to turn on.\
+1/7 chance to add an animation to blink both eyes, blink right then left, left then right.\
+Amber LEDs.\
+ATtiny84/85.
 
 ### TODO
-- improve code
-- buy CR2032 batteries x6
-- amber LED x12
-- rocker switch x6
-- 14 pin DIP x3
+- low power code
+- T85 code
 
 
 ## VHS
 
-Before friends arrive.
-Record scenes in the TV room from the perspective of the TV, wide angle.
-Move furniture for more space.
-Flip the footage (mirror).
-Add low fidelity filter.
-Add static before and after.
-Load into a small computer (e.g. RPi).
-Connect to the TV via USB.
-Leave the computer on.
-Have it load up a video.
-Use HDMI CEC commands to turn on and switch source.
-Pause any other media if possible.
-Let it play for several seconds.
-Switch back to previous source and resume playback (or power off)
-Have it activate every few hours
-Hide it inside a VHS or similar box if possible.
+Before friends arrive.\
+Record scenes in the TV room from the perspective of the TV, wide angle.\
+Move furniture for more space.\
+Flip the footage (mirror).\
+Add low fidelity filter.\
+Add static before and after.\
+Load into a small computer (e.g. RPi).\
+Connect to the TV via USB.\
+Leave the computer on.\
+Have it load up a video.\
+Use HDMI CEC commands to turn on and switch source.\
+Pause any other media if possible.\
+Let it play for several seconds.\
+Switch back to previous source and resume playback (or power off)\
+Have it activate every few hours\
+Hide it inside a cable box.
 
 ### TODO
-- look for box with HDMI and power(something from pawn shop)
 - test HDMI CEC codes using RPi
+- test playing low-rez video on RPi
+- get 5V power from cable box without starting a fire
+- enclose RPi into cable box
 
 
 ## Firewood
@@ -54,30 +52,29 @@ Try saturating firewood in the following water solutions:
 - sodium chloride (orange)
 - sugar (sparkles)
 - epsom salts (white)
-- borax
+- borax (green)
 
 https://sciencenotes.org/how-to-make-colored-fire/
 
 https://sciencenotes.org/how-to-make-colored-fire-pinecones/
 
-Only use once food cooking is done.
+Only use once food cooking is done.\
 Remove ashes after (salts remain, bad for food, mostly harmless to environment)
 
 ### TODO
 - buy potassium chloride online
-- buy borax
 - collect firewood or pinecones
-
+- try sprays in safe environment
 
 ## Bird House
 
-Build a directional speaker using an array of ultrasonic speakers.
-Indoors it would bounce too many times, use outside.
-Place it into a birdhouse-like enclosure with the front removed.
-Cover the front with a thin mesh.
-Paint it dark.
-Place in forest, aimed at a common walking spot.
-Have it play for 3 ~ 5 seconds of every 3 ~ 5 minutes.
+Build a directional speaker using an array of ultrasonic speakers.\
+Indoors it would bounce too many times, use outside.\
+Place it into a birdhouse-like enclosure with the front removed.\
+Cover the front with a thin mesh.\
+Paint it dark.\
+Place in forest, aimed at a common walking spot.\
+Have it play for 3 ~ 5 seconds of every 3 ~ 5 minutes.\
 Animal noises, chanting, loud ambience.
 
 https://www.youtube.com/watch?v=9hD5FPVSsV0
@@ -118,8 +115,7 @@ https://www.youtube.com/watch?v=Be5woNXoiBs
 https://www.youtube.com/watch?v=TQOabMOMGoE
 https://www.youtube.com/watch?v=hmNzf9ztnAk
 
-Bought 50 transducers.\
-Let's try a hexagonal lattice of 37.\
+Try a hexagonal lattice of 37.\
 Split the cable evenly to ensure that they all arrive exactly.\
 Or not, lambda = v / f, v = a*c, f = 40kHz, lambda is about 10km\
 So as long as my wiring isn't on the order of km, I'm good.\
@@ -129,9 +125,9 @@ We'll save time and effort and it will still freak people out.\
 
 
 ### TODO
-- look into pre-amp
-- look into audio amp
-- set up 555 circuit
+- build 555 and amp circuit
+- get FR4 board for transducers
+- build birdhouse
 
 
 ## Parabola
@@ -162,7 +158,6 @@ Use some kind of adjustable mounting bracket to connect them.\
 
 ### TODO
 - finish parabola in CAD
-- buy/find mic
 - ESP8266 comms
 - buy mounting supplies
 
@@ -180,13 +175,31 @@ For extra fun, load them into random positions in a dark room.
 
 ## Box
 
-Buy a food tin.
-Line it with fabric.
-Verify that it works as a Faraday cage.
+Buy a food tin.\
+Line it with fabric.\
+Verify that it works as a Faraday cage.\
 Consider adding a lock.
 
 ### TODO
 - buy tin
+- test
+
+
+## Kidnapping
+
+A friend has agreed to be kidnapped.\
+For extra fun, take them without warning.\
+Hold them up with a cap gun.\
+Tie them up.\
+Gag them (clean handkercheif im mouth, duck tape or bandana over mouth).\
+Ensure they have a reliable way to make noise.\
+Code to stop the scene is "Shave and a Hair Cut".\
+Pad trunk in blanket, them on top, another blanket over them.
+
+### TODO
+- clean handkercheifs
+- buy more zipties
+- learn knots
 
 
 ## Scene
@@ -222,8 +235,10 @@ Chants:
 - erlkonig elf lines
 
 ### TODO
+- test VHS filter on video
 - write chants
 - draw circle
 - calculate floor space
 - buy tulle
+- buy liquid latex
 
