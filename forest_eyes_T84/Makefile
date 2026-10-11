@@ -8,9 +8,14 @@ PROGRAMMER = -c usbtiny
 LIBRARIES  = AnalogInput.o ArduinoLike.o
 OBJECTS    = main.o
 OBJECTS   += $(LIBRARIES)
-# for ATTiny85
+# for ATTiny84
 # see http://www.engbedded.com/fusecalc/
-FUSES       = -U lfuse:w:0xE2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
+# SUT = 10 slow startup (no BOD, so fast not recommended)
+# CKSEL = 0100 128kHz internal clock, low power, voltage dependent, may get wonky
+# SPIEN = 1
+# BODLEVEL = 111 disabled
+# fuse values are inverted
+FUSES       = -U lfuse:w:0xE2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m -F -v -v -v
 
 # Tune the lines below only if you know what you are doing:
 AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE)
