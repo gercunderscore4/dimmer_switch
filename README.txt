@@ -17,6 +17,9 @@ ATtiny84/85.
 ### TODO
 - low power code
 - T85 code
+- solder
+- enclosure
+- light sensor?
 
 
 ## VHS
@@ -39,8 +42,8 @@ Have it activate every few hours\
 Hide it inside a cable box.
 
 ### TODO
-- test HDMI CEC codes using RPi
-- test playing low-rez video on RPi
+- look for commands to rename device
+- write and test script
 - get 5V power from cable box without starting a fire
 - enclose RPi into cable box
 
