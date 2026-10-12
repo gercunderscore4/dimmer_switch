@@ -69,6 +69,7 @@ Remove ashes after (salts remain, bad for food, mostly harmless to environment)
 - collect firewood or pinecones
 - try sprays in safe environment
 
+
 ## Bird House
 
 Build a directional speaker using an array of ultrasonic speakers.\
@@ -81,26 +82,25 @@ Have it play for 3 ~ 5 seconds of every 3 ~ 5 minutes.\
 Animal noises, chanting, loud ambience.
 
 https://www.youtube.com/watch?v=9hD5FPVSsV0
-based on "Audio Spotlight" originally from MIT
-H-bridge amplifier
-pre-amp: LM358 (had them) (has circuit)
-audio driver: TC4426A
-6 years old
-Comments:
-Someone used a L293DNE for the driver and TL082 for the pre-amp
+- based on "Audio Spotlight" originally from MIT
+- H-bridge amplifier
+- pre-amp: LM358 (had them) (has circuit)
+- audio driver: TC4426A
+- Someone in comments used a L293DNE for the driver and TL082 for the pre-amp
 
 https://www.youtube.com/watch?v=B8ss4KqcuXU
-Great Scott's circuit
+- Great Scott's circuit
 
 https://www.youtube.com/watch?v=Z8Ur3uuD610
-spacing = (1/2 + N) * lambda
-lambda = v / f = (343 m/s) / (40 kHz) = 8.56 mm
+- spacing = (1/2 + N) * lambda
+- lambda = v / f = (343 m/s) / (40 kHz) = 8.56 mm
+- I don't think this is important. None of the other designs seem to care about spacing except for maxing out density.
 
 https://www.youtube.com/watch?v=aBdVfUnS-pM
-555 envelope circuit
+- 555 envelope circuit
 
 https://www.youtube.com/watch?v=8wJ5Eff7hx0
-Freeze-framing at 5:13 shows a possibly hex grid, spaced out
+- Freeze-framing at 5:13 shows a possibly hex grid, spaced out
 
 https://www.explainthatstuff.com/directional-loudspeakers.html \
 parametric arrays with sonar\
@@ -113,10 +113,10 @@ shows a hex grid and might have good details\
 https://www.youtube.com/watch?v=HF9G9M0cR0E \
 
 Not as useful:\
-https://www.youtube.com/watch?v=0NwX8F1YZIc
-https://www.youtube.com/watch?v=Be5woNXoiBs
-https://www.youtube.com/watch?v=TQOabMOMGoE
-https://www.youtube.com/watch?v=hmNzf9ztnAk
+- https://www.youtube.com/watch?v=0NwX8F1YZIc
+- https://www.youtube.com/watch?v=Be5woNXoiBs
+- https://www.youtube.com/watch?v=TQOabMOMGoE
+- https://www.youtube.com/watch?v=hmNzf9ztnAk
 
 Try a hexagonal lattice of 37.\
 Split the cable evenly to ensure that they all arrive exactly.\
@@ -167,9 +167,9 @@ Use some kind of adjustable mounting bracket to connect them.\
 
 ## Polaroid
 
-Buy a polaroid camera.
-Take a few pictures.
-Re-load the already exposed pictures back to the top of the roll.
+Buy a polaroid camera.\
+Take a few pictures.\
+Re-load the already exposed pictures back to the top of the roll.\
 For extra fun, load them into random positions in a dark room.
 
 ### Bring
@@ -207,13 +207,13 @@ Pad trunk in blanket, them on top, another blanket over them.
 
 ## Scene
 
-Film and photograph a ritual.
-Move furniture.
-Make a summoning circle on the floor.
-Try making one with red fabric and a tulle backing.
-Candles burned down to different levels.
-Dark robes and masks for anyone on screen.
-Animal faces or skulls for the masks.
+Film and photograph a ritual.\
+Move furniture.\
+Make a summoning circle on the floor.\
+Try making one with red fabric and a tulle backing.\
+Candles burned down to different levels.\
+Dark robes and masks for anyone on screen.\
+Animal faces or skulls for the masks.\
 E.g. human skull, deer skull, bird face, wolf face
 
 Videos:
