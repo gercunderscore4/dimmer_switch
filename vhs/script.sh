@@ -1,3 +1,10 @@
+# https://github.com/raspberrypi/firmware/issues/420
+# Change HDMI CEC name
+# cec_osd_name=MyRPi1
+# hdmi_ignore_cec_init=1  # to hide it
+#
+# https://pimylifeup.com/raspberrypi-hdmi-cec/
+#
 # ensure that HDMI is the sound source
 # sudo raspi-config
 #
@@ -43,11 +50,6 @@
 # echo 'as' | cec-client -s -d 1
 #
 
-
 # cvlc --play-and-exit --fullscreen --no-video-title-show --mouse-hide-timeout 0 --video-on-top file:///home/gcard/github_repos/dimmer_switch/vhs/blarg.mkv
 
 # xset dpms force off
-
-
-
-

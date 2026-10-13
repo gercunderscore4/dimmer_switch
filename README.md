@@ -110,7 +110,7 @@ https://patents.google.com/patent/US20090116660 \
 rectangular grid\
 https://patents.google.com/patent/US20140104988 \
 shows a hex grid and might have good details\
-https://www.youtube.com/watch?v=HF9G9M0cR0E \
+https://www.youtube.com/watch?v=HF9G9M0cR0E
 
 Not as useful:\
 - https://www.youtube.com/watch?v=0NwX8F1YZIc
@@ -124,7 +124,7 @@ Or not, lambda = v / f, v = a*c, f = 40kHz, lambda is about 10km\
 So as long as my wiring isn't on the order of km, I'm good.\
 Let's use the 555 circuit, it's simple.\
 The sound will be tinny, but that's okay.\
-We'll save time and effort and it will still freak people out.\
+We'll save time and effort and it will still freak people out.
 
 
 ### TODO
@@ -140,7 +140,7 @@ Make it look like a satellite dish.\
 Place it away from the directional speaker.\
 Aim it at where people walk past the line of the directional speaker.\
 If it picks up speech while the directional speaker is off, record 2s and send to directional speaker.\
-Play back on directional speaker with a roar at the end.\
+Play back on directional speaker with a roar at the end.
 
 Build the parabola out to where the line meets the point.\
 Have a single arm reach diagonally forward and the straight back for the mic, like a TV satellite dish.\
@@ -150,14 +150,14 @@ lambda = 343 / 20k = 17mm\
 lambda = 343 / 2k = 17cm\
 lambda = 343 / 200 = 1.7m\
 So let's go with about 30cm in diameter, \
-catch the higher frequencies and still be reasonably sized.\
+catch the higher frequencies and still be reasonably sized.
 
 3D print in quarters with plates that screw together.\
 Use a bent metal pipe as the support\
 Use a square metal pipe to hold the mic\
 Use steel adjustable mounting straps to tie it to the support beam.\
 Use foam to avoid damaging the wooden corners\
-Use some kind of adjustable mounting bracket to connect them.\
+Use some kind of adjustable mounting bracket to connect them.
 
 ### TODO
 - finish parabola in CAD
