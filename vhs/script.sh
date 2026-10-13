@@ -2,6 +2,7 @@
 # Change HDMI CEC name
 # cec_osd_name=MyRPi1
 # hdmi_ignore_cec_init=1  # to hide it
+# in /boot/config.txt (or on newer, /boot/firmware/config.txt)
 #
 # https://pimylifeup.com/raspberrypi-hdmi-cec/
 #
