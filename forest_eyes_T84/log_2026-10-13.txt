@@ -1,0 +1,46 @@
+Started with:
+avrdude: safemode: Fuses OK (E:FF, H:DF, L:62)
+And flashed.
+0x62
+clk 1101 (int 8MHz)
+sut 01 (+64ms)
+
+Want to get to:
+# SUT = 10 slow startup (no BOD, so fast not recommended)
+# CKSEL = 0100 128kHz internal clock, low power, voltage dependent, may get wonky
+I also had the /8
+Which give 0x64
+
+Trying old fuse settings from Ravio project.
+E:FF, H:DF, L:E2)
+0x62 -> 0xE2, disable /8 on clk
+avrdude: safemode: Fuses OK (E:FF, H:DF, L:E2)
+
+Moved back to 0x62 because it's closer to 0x64
+Moved to 0x64.
+That did it, can't program.
+
+So 0xX2 = XXXX 0010 works.
+   0xX4 = XXXX 0100 does not.
+Tables 6-9 and 6-10
+Check-mark on fusecalc means 0 on datasheet
+CKSEL3:1
+default 001
+The device is shipped with CKSEL = “0010”, SUT = “10”, and CKDIV8 programmed
+
+According to fusecalc, default is Int RC Osc. 8 MHz;
+And my value is WD. Osc. 128 kHz;
+Table 6-1
+
+Got some kind of response.
+avrdude: initialization failed, rc=-1
+avrdude: AVR device initialized and ready to accept instructions
+avrdude: Device signature = 0x666c61
+avrdude: Expected signature for ATtiny84 is 1E 93 0C
+
+Next step should be looking into how that device signature is read.
+Baud rate in particular, and peek at the read on a scope if you can.
+
+Was reading https://sheepdogguides.com/arduino/attiny/fuses.htm
+https://www.best-microcontroller-projects.com/unbrick-attiny.html
+
