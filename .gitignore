@@ -1,4 +1,11 @@
+# programming
 *.o
 *.hex
 *.elf
+
+# python installs
 venv
+
+# video
+*.mkv
+*.mp4
