@@ -1,3 +1,5 @@
+2026-10-13
+
 Started with:
 avrdude: safemode: Fuses OK (E:FF, H:DF, L:62)
 And flashed.
@@ -44,3 +46,66 @@ Baud rate in particular, and peek at the read on a scope if you can.
 Was reading https://sheepdogguides.com/arduino/attiny/fuses.htm
 https://www.best-microcontroller-projects.com/unbrick-attiny.html
 
+2026-10-14
+
+Okay, need to try reading things.
+
+avrdude -C avrdude.custom.conf -p <any_part_number> -c <custom_programmer> -U signature:r:<file_name>:<format>
+FUSES  = -U lfuse:w:0x64:m
+AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE)
+PROGRAMMER = -c usbtiny
+DEVICE     = attiny84
+
+avrdude -c usbtiny -p attiny84 -n
+I can read unaffected chips.
+And when I try to fuse bricked chips, I get a signature on one of them.
+
+Marked it with duck tape:
+    avrdude: initialization failed, rc=-1
+    avrdude: AVR device initialized and ready to accept instructions
+    avrdude: Device signature = 0x743430
+    avrdude: Expected signature for ATtiny84 is 1E 93 0C
+    0x656570
+    0x656570
+    0x783338
+    0x656570
+    Weird.
+    
+red tape
+    0x743230
+    0x783338
+    0x743500
+    What the hell?
+
+    Maybe https://www.reddit.com/r/embedded/comments/qfprq9/debugging_yikes_invalid_device_signature_with/
+    User slower baud rate?
+
+Okay, let's treat them as unrecoverable.
+We'll work with the 8MHz clock, slowed and with BOD off.
+And give the long SUT.
+
+Or just leave them default, let's set up the Watchdog timer.
+That, plus disabling the ADC should be huge power savings.
+
+Okay, if I can get this now, we keep the T84.
+If not, we switch to the T85, which has more code examples.\
+Section 8.1 Sleep Modes.
+Watchdog workds for idle, ADC noise reduction, and power-down.
+Power-down sounds nice.
+SM1..0 bits are written to "10" sleep instruction make the MCU enters power-down.
+Turn off ADC
+
+ADCSRA &= ~(1<<ADEN);
+8.9.1 MCUCR
+MCUCR = (1<<BODS) | (1<<SM1) | (1<<SM0)
+
+https://www.marcelpost.com/wiki/index.php/ATtiny84_WDT_sleep
+
+WDTCSR 
+
+Got it working to within about 10% of real time.
+That's honestly all I need.
+Next up, ordering more living ATtiny84 chips and soldering.
+And packaging.
+Let's order ... 4?
+I can recover them after, so use them all up.

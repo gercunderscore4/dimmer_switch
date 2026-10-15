@@ -29,8 +29,8 @@
  */
 
 #include <avr/io.h>
-#include <util/delay.h>
 #include "ArduinoLike.h"
+#include "wdt_sleep.h"
 
 /****************************************************************
  * MAIN
@@ -40,21 +40,8 @@
 #define LED_1_PIN 1 // PA1
 #define LED_2_PIN 2 // PA2
 
-#define SEC_PER_MIN 60
-
 #define STARE_TYPES 6
 
-void wait_seconds(uint8_t seconds) {
-    while (seconds--) {
-        delay(1000);
-    }
-}
-
-void wait_minutes(uint8_t minutes) {
-    while (minutes--) {
-        wait_seconds(SEC_PER_MIN);
-    }
-}
 
 void wait_rand (uint16_t min_sec, uint16_t max_sec) {
     uint16_t rand_sec = randomWMinMax(min_sec, max_sec);
@@ -185,8 +172,12 @@ void setup (void) {
 }
 
 void loop (void) {
-    closed_phase();
-    open_phase();
+    //closed_phase();
+    //open_phase();
+    open_eyes();
+    delay(100);
+    close_eyes();
+    delay(900);
 }
 
 int main (void) {

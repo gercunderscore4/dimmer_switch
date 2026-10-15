@@ -73,14 +73,6 @@ uint16_t randomWMinMax (uint16_t howsmall, uint16_t howbig) {
   return randomWMax(diff) + howsmall;
 }
 
-void delay (uint16_t duration_ms) {
-    // ignoring cycles needed for loop
-    // at 1MHz, should be close enough
-    for (uint16_t i = 0; i < duration_ms; i++) {
-        _delay_ms(1);
-    }
-}
-
 uint16_t max (uint16_t a, uint16_t b) {
     return (a > b) ? a : b;
 }

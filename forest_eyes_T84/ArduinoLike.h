@@ -6,7 +6,6 @@
 #define __ARDUINOLIKE_H__
 
 #include <avr/io.h>
-#include <util/delay.h>
 #include "stdlib.h"
 #include "AnalogInput.h"
 
@@ -21,7 +20,6 @@ void digitalWrite (uint8_t pin, uint8_t value);
 void seed_random (void);
 uint16_t randomWMax (uint16_t howbig);
 uint16_t randomWMinMax (uint16_t howsmall, uint16_t howbig);
-void delay (uint16_t duration_ms);
 uint16_t max (uint16_t a, uint16_t b);
 
 #endif // __ARDUINOLIKE_H__

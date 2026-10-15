@@ -5,7 +5,7 @@
 DEVICE     = attiny84
 CLOCK      = 8000000
 PROGRAMMER = -c usbtiny
-LIBRARIES  = AnalogInput.o ArduinoLike.o
+LIBRARIES  = AnalogInput.o ArduinoLike.o wdt_sleep.o
 OBJECTS    = main.o
 OBJECTS   += $(LIBRARIES)
 # for ATTiny84
@@ -15,7 +15,7 @@ OBJECTS   += $(LIBRARIES)
 # SPIEN = 1
 # BODLEVEL = 111 disabled
 # fuse values are inverted
-FUSES       = -U lfuse:w:0x64:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m -v -v -v -F
+FUSES       = -U lfuse:w:0x62:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m -v -v -v -F
 
 # Tune the lines below only if you know what you are doing:
 AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE)
