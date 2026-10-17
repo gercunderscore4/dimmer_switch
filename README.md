@@ -15,11 +15,12 @@ Amber LEDs.\
 ATtiny84/85.
 
 ### TODO
-- low power code
 - T85 code
 - solder
 - enclosure
-- light sensor?
+- test lights
+- with resistors?
+- test randomness
 
 
 ## VHS
@@ -129,7 +130,8 @@ We'll save time and effort and it will still freak people out.
 
 ### TODO
 - build 555 and amp circuit
-- get FR4 board for transducers
+- build transducer speaker
+- program sounds
 - build birdhouse
 
 
