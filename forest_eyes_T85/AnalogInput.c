@@ -48,9 +48,9 @@
 
 void analogInit (void) {
     // input
-    DDRA  &= ~(1 << ANALOG_PIN);
+    DDRB  &= ~(1 << ANALOG_PIN);
     // no pull-up
-    PORTA &= ~(1 << ANALOG_PIN);
+    PORTB &= ~(1 << ANALOG_PIN);
     // disable digial input
     DIDR0 |=  (1 << ANALOG_PIN); 
 
