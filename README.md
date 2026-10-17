@@ -2,13 +2,6 @@
 
 Gaslighting my friends with techonology and science for Halloween.
 
-### Priorities
-- determine dish screw size
-- 3D dish model
-- buy potassium chloride
-- finish building eyes
-- finalize VHS
-
 
 ## Forest Eyes
 
@@ -21,10 +14,6 @@ PWM to turn on.\
 1/7 chance to add an animation to blink both eyes, blink right then left, left then right.\
 Amber LEDs.\
 ATtiny84/85.
-
-### TODO
-- solder
-- seal
 
 
 ## VHS
@@ -46,12 +35,6 @@ Switch back to previous source and resume playback (or power off)\
 Have it activate every few hours\
 Hide it inside a cable box.
 
-### TODO
-- look for commands to rename device
-- write and test script
-- get 5V power from cable box without starting a fire
-- enclose RPi into cable box
-
 
 ## Firewood
 
@@ -68,11 +51,6 @@ https://sciencenotes.org/how-to-make-colored-fire-pinecones/
 
 Only use once food cooking is done.\
 Remove ashes after (salts remain, bad for food, mostly harmless to environment)
-
-### TODO
-- buy potassium chloride online
-- collect firewood or pinecones
-- try sprays in safe environment
 
 
 ## Bird House
@@ -132,13 +110,6 @@ The sound will be tinny, but that's okay.\
 We'll save time and effort and it will still freak people out.
 
 
-### TODO
-- build 555 and amp circuit
-- build transducer speaker
-- program sounds
-- build birdhouse
-
-
 ## Parabola
 
 Build a parabolic reflector dish.\
@@ -165,11 +136,6 @@ Use steel adjustable mounting straps to tie it to the support beam.\
 Use foam to avoid damaging the wooden corners\
 Use some kind of adjustable mounting bracket to connect them.
 
-### TODO
-- finish parabola in CAD
-- ESP8266 comms
-- buy mounting supplies
-
 
 ## Polaroid
 
@@ -186,10 +152,6 @@ Line it with fabric.\
 Verify that it works as a Faraday cage.\
 Consider adding a lock.
 
-### TODO
-- buy tin
-- test
-
 
 ## Kidnapping
 
@@ -201,10 +163,6 @@ Gag them (clean handkercheif im mouth, duck tape or bandana over mouth).\
 Ensure they have a reliable way to make noise.\
 Code to stop the scene is "Shave and a Hair Cut".\
 Pad trunk in blanket, them on top, another blanket over them.
-
-### TODO
-- clean handkercheifs
-- learn knots
 
 
 ## Scene
@@ -238,12 +196,3 @@ Chants:
 - try reversing short phrases and saying them backwards (without reversing footage)
 - dies irae
 - erlkonig elf lines
-
-### TODO
-- test VHS filter on video
-- write chants
-- draw circle
-- buy candles
-- calculate floor space
-- buy liquid latex
-
