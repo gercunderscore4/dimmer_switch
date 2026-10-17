@@ -178,9 +178,6 @@ Take a few pictures.\
 Re-load the already exposed pictures back to the top of the roll.\
 For extra fun, load them into random positions in a dark room.
 
-### Bring
-- camera
-- film x3
 
 ## Box
 
@@ -207,7 +204,6 @@ Pad trunk in blanket, them on top, another blanket over them.
 
 ### TODO
 - clean handkercheifs
-- buy more zipties
 - learn knots
 
 
@@ -247,7 +243,7 @@ Chants:
 - test VHS filter on video
 - write chants
 - draw circle
+- buy candles
 - calculate floor space
-- buy tulle
 - buy liquid latex
 
