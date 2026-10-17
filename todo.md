@@ -1,3 +1,10 @@
+### Priorities
+- determine dish screw size
+- 3D dish model
+- buy potassium chloride
+- finish building eyes
+- finalize VHS
+
 ## Forest Eyes
 - [ ] solder
 - [ ] seal
