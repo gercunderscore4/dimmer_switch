@@ -71,7 +71,7 @@ void delay (uint16_t approx_ms) {
     watchdog_sleep_ms(approx_ms); // +/- 16ms
 }
 
-void wait_seconds(uint8_t seconds) {
+void wait_seconds(uint16_t seconds) {
     watchdog_sleep(seconds);
 }
 
