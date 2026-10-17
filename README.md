@@ -2,6 +2,13 @@
 
 Gaslighting my friends with techonology and science for Halloween.
 
+### Priorities
+- determine dish screw size
+- 3D dish model
+- finish building eyes
+- finalize VHS
+
+
 ## Forest Eyes
 
 Use a microcontroller, two LEDs and a coin cell battery to make glowing eyes in the forest.\
@@ -15,12 +22,8 @@ Amber LEDs.\
 ATtiny84/85.
 
 ### TODO
-- T85 code
 - solder
-- enclosure
-- test lights
-- with resistors?
-- test randomness
+- seal
 
 
 ## VHS
