@@ -1,7 +1,4 @@
 ### Priorities
-- determine dish screw size
-- 3D dish model
-- buy potassium chloride
 - finish building eyes
 - finalize VHS
 
@@ -16,9 +13,8 @@
 - [ ] enclose RPi into cable box
 
 ## Firewood
-- [ ] buy potassium chloride online
 - [ ] collect firewood or pinecones
-- [ ] try sprays in safe environment
+- [ ] test alcohol vs water sprays
 
 ## Bird House
 - [ ] build 555 and amp circuit
@@ -27,9 +23,9 @@
 - [ ] build birdhouse
 
 ## Parabola
-- [ ] finish parabola in CAD
+- [ ] mounting bracket in CAD
+- [ ] microphone holder
 - [ ] ESP8266 comms
-- [ ] buy mounting supplies
 
 ## Polaroid
 - [x] Done.
@@ -48,6 +44,4 @@
 - [ ] test VHS filter on video
 - [ ] write chants
 - [ ] draw circle
-- [ ] buy candles
 - [ ] buy liquid latex
-

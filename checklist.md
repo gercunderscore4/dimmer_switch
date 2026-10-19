@@ -5,7 +5,8 @@
 - [ ] solder & iron
 - [ ] circuits
 - [ ] masking tape
-- [ ] sealer?
+- [ ] sealant
+
 
 ## VHS
 - [ ] laptop
@@ -15,6 +16,7 @@
 - [ ] HDMI cable
 - [ ] outlet splitter
 - [ ] cable box
+- [ ] screwdriver
 
 
 ## Firewood
@@ -43,7 +45,7 @@
 - [ ] comms circuit
 - [ ] screwed metal ziptie
 - [ ] foam padding
-
+- [ ] needle-nose pliers/crescent wench
 
 ## Polaroid
 - [ ] camera
