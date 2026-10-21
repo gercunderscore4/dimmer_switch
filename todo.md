@@ -1,16 +1,16 @@
 ### Priorities
-- finish building eyes
 - finalize VHS
+- make props for scene
 
 ## Forest Eyes
-- [ ] solder
 - [ ] seal
 
 ## VHS
 - [ ] look for commands to rename device
 - [ ] write and test script
 - [ ] get 5V power from cable box without starting a fire
-- [ ] enclose RPi into cable box
+- [ ] hide bootup
+- [ ] start script after boot
 
 ## Firewood
 - [ ] collect firewood or pinecones
@@ -31,7 +31,6 @@
 - [x] Done.
 
 ## Box
-- [ ] buy tin
 - [ ] line tin with fabric
 - [ ] ensure electric field seal
 - [ ] test
@@ -39,9 +38,11 @@
 ## Kidnapping
 - [ ] clean handkercheifs
 - [ ] learn knots
+- [ ] practice makeup
 
 ## Scene
 - [ ] test VHS filter on video
 - [ ] write chants
-- [ ] draw circle
-- [ ] buy liquid latex
+- [ ] paint circle
+- [ ] make masks
+- [ ] film and photograph
