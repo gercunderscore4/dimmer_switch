@@ -10,7 +10,7 @@
 
 ## VHS
 - [ ] laptop
-- [ ] USB drive
+- [ ] USB stick
 - [ ] Raspberry Pi
 - [ ] HDMI extension
 - [ ] HDMI cable
@@ -67,6 +67,7 @@
 - [ ] toy weapon
 - [ ] gloves
 - [ ] blankets
+- [ ] make-up
 
 
 ## Scene
@@ -74,6 +75,7 @@
 - [ ] camera holder
 - [ ] summoning circle
 - [ ] candles
+- [ ] fan/hair dryer
 - [ ] robes
 - [ ] masks
 - [ ] liquid latex
