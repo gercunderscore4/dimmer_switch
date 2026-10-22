@@ -50,6 +50,15 @@
 # switch to me
 # echo 'as' | cec-client -s -d 1
 #
+# changing this in /boot/config.txt
+# dtoverlay=vc4-kms-v3d
+# to:
+# dtoverlay=vc4-fkms-v3d
+# some people are saying that this isn't supported
+# others say to look into bullseye instead
+# bullseye is named in cat /etc/os-release
+
+
 # cvlc --play-and-exit --fullscreen --no-video-title-show --mouse-hide-timeout 0 --video-on-top file:///home/gcard/github_repos/dimmer_switch/vhs/blarg.mkv
 # ctrl+q to quit
 #
@@ -60,18 +69,37 @@
 # xset -display :0 dpms force on
 # or
 # sleep 1; xset s activate
+#
+# not worth it, just set everything to black
 
+# first, check that we're on /dev/cec0 (-d0)
+# cec-ctl -s --list-devices
+#
+# second, configure device (no -s, we want to see what we are)
+# cec-ctl -d0 --playback
+#
+# third, show topology
+# cec-ctl -s -d0 -S
+#
+# power TV on
+# cec-ctl -s -t0 --image-view-on
+#
+# turn off tv
+# cec-ctl -d0 -t0 --standby
+#
+# allegedly set active source
+# cec-ctl -s -d0 -t0 --active-source phys-addr=3.0.0.0
 
-sleep 1
-xset s activate
-for file in ./*.mkv; do
+echo "HIDEO THE MOUSE!"
+sleep 5
+for file in ./*.mp4; do
     [ -e "$file" ] || continue
     # need to sleep for 3600
     sleep 10
     vidpath=$(realpath "$file")
-    echo 'as' | cec-client -s -d 1
+    cec-ctl -s -d0 -t0 --playback --active-source phys-addr=3.0.0.0 --image-view-on
     cvlc --play-and-exit --fullscreen --no-video-title-show --mouse-hide-timeout 0 --video-on-top "file://$vidpath"
-    #need instanty darkness
-    xset s activate
+    cec-ctl -s -d0 -t0 --inactive-source phys-addr=3.0.0.0
+    cec-ctl -d0 -t0 --standby
 done
 

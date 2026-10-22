@@ -1,0 +1,56 @@
+Initial Event: State Change: PA: 3.0.0.0, LA mask: 0x0100, Conn Info: yes
+Received from TV to Playback Device 2 (0 to 8): POLL
+Received from TV to Playback Device 2 (0 to 8): POLL
+
+Event: State Change: PA: 3.0.0.0, LA mask: 0x0000, Conn Info: yes
+
+Event: State Change: PA: 3.0.0.0, LA mask: 0x8000, Conn Info: yes
+Transmitted by Unregistered to all (15 to 15): REPORT_PHYSICAL_ADDR (0x84):
+	phys-addr: 3.0.0.0
+	prim-devtype: switch (0x06)
+Transmitted by Unregistered to all (15 to 15): DEVICE_VENDOR_ID (0x87):
+	vendor-id: 5506 (0x00001582)
+Transmitted by Unregistered to TV (15 to 0): POLL
+Transmitted by Unregistered to TV (15 to 0): GIVE_DEVICE_VENDOR_ID (0x8c)
+Received from TV to all (0 to 15): DEVICE_VENDOR_ID (0x87):
+	vendor-id: 524358 (0x00080046)
+Transmitted by Recording Device 1 to Recording Device 1 (1 to 1): POLL
+	Tx, Not Acknowledged (2), Max Retries
+Transmitted by Recording Device 1 to Recording Device 1 (1 to 1): POLL
+	Tx, Not Acknowledged (2), Max Retries
+
+Event: State Change: PA: 3.0.0.0, LA mask: 0x0000, Conn Info: yes
+Transmitted by Recording Device 1 to Recording Device 1 (1 to 1): POLL
+	Tx, Not Acknowledged (4), Max Retries
+
+Event: State Change: PA: 3.0.0.0, LA mask: 0x0002, Conn Info: yes
+Transmitted by Recording Device 1 to all (1 to 15): REPORT_PHYSICAL_ADDR (0x84):
+	phys-addr: 3.0.0.0
+	prim-devtype: record (0x01)
+Transmitted by Recording Device 1 to all (1 to 15): DEVICE_VENDOR_ID (0x87):
+	vendor-id: 5506 (0x00001582)
+Received from TV to Recording Device 1 (0 to 1): GIVE_OSD_NAME (0x46)
+Transmitted by Recording Device 1 to all (1 to 15): REPORT_PHYSICAL_ADDR (0x84):
+	phys-addr: 3.0.0.0
+	prim-devtype: record (0x01)
+Transmitted by Recording Device 1 to TV (1 to 0): SET_OSD_NAME (0x47):
+	name: CECTester
+Transmitted by Recording Device 1 to TV (1 to 0): GIVE_DEVICE_POWER_STATUS (0x8f)
+Received from TV to Recording Device 1 (0 to 1): GIVE_DEVICE_VENDOR_ID (0x8c)
+Transmitted by Recording Device 1 to TV (1 to 0): SET_OSD_NAME (0x47):
+	name: CECTester
+Received from TV to Recording Device 1 (0 to 1): REPORT_POWER_STATUS (0x90):
+	pwr-state: on (0x00)
+Transmitted by Recording Device 1 to all (1 to 15): DEVICE_VENDOR_ID (0x87):
+	vendor-id: 5506 (0x00001582)
+Transmitted by Recording Device 1 to TV (1 to 0): IMAGE_VIEW_ON (0x04)
+Received from TV to all (0 to 15): ROUTING_CHANGE (0x80):
+	orig-phys-addr: 0.0.0.0
+	new-phys-addr: 3.0.0.0
+Transmitted by Recording Device 1 to all (1 to 15): ACTIVE_SOURCE (0x82):
+	phys-addr: 3.0.0.0
+Transmitted by Recording Device 1 to TV (1 to 0): MENU_STATUS (0x8e):
+	menu-state: activated (0x00)
+
+Event: State Change: PA: 3.0.0.0, LA mask: 0x0000, Conn Info: yes
+^C
