@@ -1,5 +1,6 @@
 ### Priorities
-- finalize VHS
+- finish bird house speaker
+- collect parabolic dish
 - make props for scene
 
 ## Forest Eyes
@@ -7,10 +8,8 @@
 
 ## VHS
 - [ ] look for commands to rename device
-- [ ] write and test script
-- [ ] get 5V power from cable box without starting a fire
-- [ ] hide bootup
-- [ ] start script after boot
+- [ ] test how long battery lasts
+- [ ] start script on boot
 
 ## Firewood
 - [ ] collect firewood or pinecones
@@ -18,7 +17,8 @@
 
 ## Bird House
 - [ ] build 555 and amp circuit
-- [ ] build transducer speaker
+- [ ] test speaker circuit
+- [ ] solder circuit
 - [ ] program sounds
 - [ ] build birdhouse
 
@@ -41,7 +41,6 @@
 - [ ] practice makeup
 
 ## Scene
-- [ ] test VHS filter on video
 - [ ] write chants
 - [ ] paint circle
 - [ ] make masks
