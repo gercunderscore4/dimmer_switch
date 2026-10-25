@@ -126,7 +126,7 @@ For extra fun, load them into random positions in a dark room.
 Buy a food tin.\
 Line it with fabric.\
 Verify that it works as a Faraday cage.\
-Consider adding a lock.
+Consider adding a lock.\
 Place everyone's phones inside so that no one can call for help.
 
 
@@ -139,12 +139,13 @@ Tie them up.\
 Gag them (clean handkercheif im mouth, duck tape or bandana over mouth).\
 Ensure they have a reliable way to make noise.\
 Code to stop the scene is "Shave and a Hair Cut".\
-Pad trunk in blanket, them on top, another blanket over them.
-Ask another friend to get your luggage.
+Pad trunk in blanket, them on top, another blanket over them.\
+Ask another friend to get your luggage.\
 Have the kidnapped friend yell and scream and try to escape.
 
 ## Scene
 
+Rent out the same cabin the night before.\
 Film and photograph a ritual.\
 Move furniture.\
 Make a summoning circle on the floor.\
