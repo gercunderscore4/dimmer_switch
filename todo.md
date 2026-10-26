@@ -9,14 +9,12 @@
 ## VHS
 - [ ] look for commands to rename device
 - [ ] test how long battery lasts
-- [ ] start script on boot
 
 ## Firewood
 - [ ] collect firewood or pinecones
 - [ ] test alcohol vs water sprays
 
 ## Bird House
-- [ ] build 555 and amp circuit
 - [ ] test speaker circuit
 - [ ] solder circuit
 - [ ] program sounds
@@ -32,8 +30,6 @@
 
 ## Box
 - [ ] line tin with fabric
-- [ ] ensure electric field seal
-- [ ] test
 
 ## Kidnapping
 - [ ] clean handkercheifs
