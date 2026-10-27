@@ -7,7 +7,6 @@
 - [ ] seal
 
 ## VHS
-- [ ] look for commands to rename device
 - [ ] test how long battery lasts
 
 ## Firewood
@@ -21,15 +20,15 @@
 - [ ] build birdhouse
 
 ## Parabola
-- [ ] mounting bracket in CAD
-- [ ] microphone holder
+- [ ] setup recording circuit
 - [ ] ESP8266 comms
+- [ ] build reed switch trigger for door
 
 ## Polaroid
 - [x] Done.
 
 ## Box
-- [ ] line tin with fabric
+- [x] Done.
 
 ## Kidnapping
 - [ ] clean handkercheifs
