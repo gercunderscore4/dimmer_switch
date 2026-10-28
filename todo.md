@@ -1,5 +1,6 @@
 ### Priorities
-- finish bird house speaker
+- test VHS battery
+- finish bird house amp
 - collect parabolic dish
 - make props for scene
 
@@ -23,6 +24,12 @@
 - [ ] setup recording circuit
 - [ ] ESP8266 comms
 - [ ] build reed switch trigger for door
+
+## Doorbell
+- build box
+- connect ESP to speaker and reed switch
+- play sounds
+- connect to other ESPs
 
 ## Polaroid
 - [x] Done.

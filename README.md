@@ -113,6 +113,16 @@ Use foam to avoid damaging the wooden corners\
 Use some kind of adjustable mounting bracket to connect them.
 
 
+## Doorbell
+
+Let's make a decoy that also helps.\
+A device connected beside the door.\
+Uses a magnet on the door and a reed switch.\
+When someone opens the door,\
+play a spooky sound.\
+And also tigger the parabola and birdhouse for 10s.
+
+
 ## Polaroid
 
 Buy a polaroid camera.\
