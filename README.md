@@ -109,6 +109,15 @@ Let's use the 555 circuit, it's simple.\
 The sound will be tinny, but that's okay.\
 We'll save time and effort and it will still freak people out.
 
+If we do a compact pattern, it'll be on a hex grid.
+The transducers are 16mm in diameter.
+Let's give them 17mm of space.
+The legs are centered and 10mm apart.
+inner_leg_radius = 17/5 + n*17 + (17-10)/2 = 12+17*n
+outer_leg_radius = <inner_leg_radius> + 10
+inner_leg_dia = 24+34*n
+outer_leg_dia = <inner_leg_dia> + 20
+
 
 ## Parabola
 
