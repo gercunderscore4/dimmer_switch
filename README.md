@@ -33,7 +33,7 @@ Pause any other media if possible.\
 Let it play for several seconds.\
 Switch back to previous source and resume playback (or power off)\
 Have it activate every few hours\
-Hide it inside a cable box.
+Hide it inside a VHS player or cable box.
 
 
 ## Firewood
@@ -74,32 +74,8 @@ https://www.youtube.com/watch?v=9hD5FPVSsV0
 https://www.youtube.com/watch?v=B8ss4KqcuXU
 - Great Scott's circuit
 
-https://www.youtube.com/watch?v=Z8Ur3uuD610
-- spacing = (1/2 + N) * lambda
-- lambda = v / f = (343 m/s) / (40 kHz) = 8.56 mm
-- I don't think this is important. None of the other designs seem to care about spacing except for maxing out density.
-
 https://www.youtube.com/watch?v=aBdVfUnS-pM
-- 555 envelope circuit
-
-https://www.youtube.com/watch?v=8wJ5Eff7hx0
-- Freeze-framing at 5:13 shows a possibly hex grid, spaced out
-
-https://www.explainthatstuff.com/directional-loudspeakers.html \
-parametric arrays with sonar\
-HyperSonic Sound\
-patent links\
-https://patents.google.com/patent/US20090116660 \
-rectangular grid\
-https://patents.google.com/patent/US20140104988 \
-shows a hex grid and might have good details\
-https://www.youtube.com/watch?v=HF9G9M0cR0E
-
-Not as useful:\
-- https://www.youtube.com/watch?v=0NwX8F1YZIc
-- https://www.youtube.com/watch?v=Be5woNXoiBs
-- https://www.youtube.com/watch?v=TQOabMOMGoE
-- https://www.youtube.com/watch?v=hmNzf9ztnAk
+- Use envelope circuit with LM555 timer
 
 Try a hexagonal lattice of 37.\
 Split the cable evenly to ensure that they all arrive exactly.\
@@ -146,6 +122,16 @@ Use foam to avoid damaging the wooden corners\
 Use some kind of adjustable mounting bracket to connect them.
 
 
+## Doorbell
+
+Let's make a decoy that also helps.\
+A device connected beside the door.\
+Uses a magnet on the door and a reed switch.\
+When someone opens the door,\
+play a spooky sound.\
+And also tigger the parabola and birdhouse for 10s.
+
+
 ## Polaroid
 
 Buy a polaroid camera.\
@@ -159,7 +145,8 @@ For extra fun, load them into random positions in a dark room.
 Buy a food tin.\
 Line it with fabric.\
 Verify that it works as a Faraday cage.\
-Consider adding a lock.
+Consider adding a lock.\
+Place everyone's phones inside so that no one can call for help.
 
 
 ## Kidnapping
@@ -171,11 +158,13 @@ Tie them up.\
 Gag them (clean handkercheif im mouth, duck tape or bandana over mouth).\
 Ensure they have a reliable way to make noise.\
 Code to stop the scene is "Shave and a Hair Cut".\
-Pad trunk in blanket, them on top, another blanket over them.
-
+Pad trunk in blanket, them on top, another blanket over them.\
+Ask another friend to get your luggage.\
+Have the kidnapped friend yell and scream and try to escape.
 
 ## Scene
 
+Rent out the same cabin the night before.\
 Film and photograph a ritual.\
 Move furniture.\
 Make a summoning circle on the floor.\

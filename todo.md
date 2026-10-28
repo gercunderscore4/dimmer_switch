@@ -1,39 +1,41 @@
 ### Priorities
-- finalize VHS
+- test VHS battery
+- finish bird house amp
+- collect parabolic dish
 - make props for scene
 
 ## Forest Eyes
 - [ ] seal
 
 ## VHS
-- [ ] look for commands to rename device
-- [ ] write and test script
-- [ ] get 5V power from cable box without starting a fire
-- [ ] hide bootup
-- [ ] start script after boot
+- [ ] test how long battery lasts
 
 ## Firewood
 - [ ] collect firewood or pinecones
 - [ ] test alcohol vs water sprays
 
 ## Bird House
-- [ ] build 555 and amp circuit
-- [ ] build transducer speaker
+- [ ] test speaker circuit
+- [ ] solder circuit
 - [ ] program sounds
 - [ ] build birdhouse
 
 ## Parabola
-- [ ] mounting bracket in CAD
-- [ ] microphone holder
+- [ ] setup recording circuit
 - [ ] ESP8266 comms
+- [ ] build reed switch trigger for door
+
+## Doorbell
+- build box
+- connect ESP to speaker and reed switch
+- play sounds
+- connect to other ESPs
 
 ## Polaroid
 - [x] Done.
 
 ## Box
-- [ ] line tin with fabric
-- [ ] ensure electric field seal
-- [ ] test
+- [x] Done.
 
 ## Kidnapping
 - [ ] clean handkercheifs
@@ -41,7 +43,6 @@
 - [ ] practice makeup
 
 ## Scene
-- [ ] test VHS filter on video
 - [ ] write chants
 - [ ] paint circle
 - [ ] make masks

@@ -85,3 +85,7 @@
 ## Misc
 - [ ] sparkling wine
 - [ ] pill bottle
+- [ ] water
+- [ ] salad
+- [ ] pizza
+- [ ] bread?
